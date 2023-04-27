@@ -35,7 +35,7 @@ function App() {
     return (
     <div className="main">
       <h1>PidginGPT</h1>
-      <p>Developed by Kense</p>
+      <p>Na Kense Develop Am</p>
       <div className="log">
         <ul>
           {chatLog.map((chat, idx) =>
@@ -45,8 +45,8 @@ function App() {
       </div>
       <form onSubmit={onSubmit}>
         
-        <input type="text" name="prompt" placeholder={chatLog.length > 0 ? "" : "👋🏾Say Hello..."} value={userValue} onChange={(e) => setUserValue(e.target.value)} />
-        <button type='submit'>Ask</button>
+        <input type="text" name="prompt" placeholder={chatLog.length > 0 ? "" : "👋🏾Write for here"} value={userValue} onChange={(e) => setUserValue(e.target.value)} />
+        <button type='submit'>Yarn Me Wassup</button>
       </form>
     </div>
   )
