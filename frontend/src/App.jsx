@@ -45,8 +45,8 @@ function App() {
       </div>
       <form onSubmit={onSubmit}>
         
-        <input type="text" name="prompt" placeholder={chatLog.length > 0 ? "" : "👋🏾Write for here"} value={userValue} onChange={(e) => setUserValue(e.target.value)} />
-        <button type='submit'>Yarn Me Wassup</button>
+        <input type="text" name="prompt" placeholder={chatLog.length > 0 ? "" : "👋🏾Yarn me wassup"} value={userValue} onChange={(e) => setUserValue(e.target.value)} />
+        <button type='submit'>Send</button>
       </form>
     </div>
   )
